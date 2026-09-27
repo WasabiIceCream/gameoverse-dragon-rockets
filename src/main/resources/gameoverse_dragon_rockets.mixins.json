@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.gameoverse.dragonrockets.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"FireworkRocketItemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragon_breath_firework",
+  "ingredients": [
+    "minecraft:dragon_breath",
+    "minecraft:paper",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "gameoverse_dragon_rockets:dragon_breath_firework",
+    "count": 8,
+    "components": {
+      "minecraft:fireworks": {
+        "flight_duration": 1
+      }
+    }
+  }
+}

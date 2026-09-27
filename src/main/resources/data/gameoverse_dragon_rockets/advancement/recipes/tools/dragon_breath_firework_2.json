@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragon_breath": {
+      "conditions": {
+        "items": [
+          { "items": "minecraft:dragon_breath" }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gameoverse_dragon_rockets:dragon_breath_firework_2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dragon_breath"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gameoverse_dragon_rockets:dragon_breath_firework_2"
+    ]
+  }
+}
