@@ -19,7 +19,11 @@ Other boosts on this server, checked 2026-09-26: Do a Barrel Roll's thrust is of
 situational, left alone. Dragon's Breath sources: bottling the Ender Dragon's breath, the
 Dragon Wight (one of Dragonkind Evolved's 15 respawned-dragon variants, `dke:dragons/wight`,
 3-4 rolls over 4 equal entries), and, the only one before the End, Moog's Mineshafts' jungle
-`brewing_scraps` chests (weight 2 of 23).
+`brewing_scraps` chests (weight 2 of 23). Of the 15 forms plus the shared `generic` table,
+only the Wight's loot has it. Bottling needs `cloud.getOwner() instanceof EnderDragon`
+(vanilla `BottleItem`): every form's `breath_cloud_behavior` only merges new effects and
+particles into the dragon's own clouds, except Warped (`cloud_warped.mcfunction`), which kills
+each cloud and summons an ownerless copy, so nothing can be bottled in a Warped fight.
 
 Both sides (the item and its texture are needed on the client); install on the server,
 AutoModpack ships it. Build: `./gradlew build`. MIT.
