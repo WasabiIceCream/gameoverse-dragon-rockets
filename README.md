@@ -16,8 +16,10 @@ rockets (crossbows, displays, dispensers, launching one from the ground) is unch
 
 Other boosts on this server, checked 2026-09-26: Do a Barrel Roll's thrust is off
 (`allowThrusting` defaults to false server-side); Riptide and Wind Charges are vanilla and
-situational, left alone. Dragon's Breath sources besides the dragon fight: Moog's Mineshafts'
-jungle `brewing_scraps` chests (weight 2 of 23), Dragonkind Evolved's Wight dragon.
+situational, left alone. Dragon's Breath sources: bottling the Ender Dragon's breath, the
+Dragon Wight (one of Dragonkind Evolved's 15 respawned-dragon variants, `dke:dragons/wight`,
+3-4 rolls over 4 equal entries), and, the only one before the End, Moog's Mineshafts' jungle
+`brewing_scraps` chests (weight 2 of 23).
 
 Both sides (the item and its texture are needed on the client); install on the server,
 AutoModpack ships it. Build: `./gradlew build`. MIT.
